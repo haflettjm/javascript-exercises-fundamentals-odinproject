@@ -18,7 +18,7 @@ const sumAll = function(num1, num2) {
             return 'ERROR';
         }
     }else{
-        return 'ERROR'
+        return 'ERROR';
     }
 };
 
