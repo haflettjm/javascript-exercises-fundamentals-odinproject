@@ -1,21 +1,32 @@
-const add = function() {
-	
+const add = function(x,y) {
+  let res = x + y
+  return res
 };
 
-const subtract = function() {
-	
+const subtract = function(x,y) {
+  let res = x - y
+  return res
 };
 
-const sum = function() {
-	
+const sum = function(arr) {
+  // computes the sum of an array
+  let res = 0;
+  if(arr.length != 0){
+    for(let i = 0; i < arr.length; i++){
+      res += arr[i]
+    } 
+  }
+  return res
 };
 
 const multiply = function() {
-
+  let res = x * y
+  return res
 };
 
 const power = function() {
-	
+	  let res = Math.pow(x,y)
+  return res
 };
 
 const factorial = function() {
