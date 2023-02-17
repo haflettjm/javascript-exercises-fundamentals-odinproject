@@ -19,18 +19,27 @@ const sum = function(arr) {
   return res
 };
 
-const multiply = function() {
-  let res = x * y
+const multiply = function(arr) {
+  let res = 1;
+
+  for(let i = 0; i < arr.length; i++){
+    res *= arr[i] 
+  }
+
   return res
 };
 
-const power = function() {
-	  let res = Math.pow(x,y)
+const power = function(x,y) {
+	let res = Math.pow(x,y)
   return res
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+  let res = 1;
+	for(let i = 1; i <= num; i++){
+    res *= i
+  };
+  return res
 };
 
 // Do not edit below this line
